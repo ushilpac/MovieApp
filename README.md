@@ -14,11 +14,9 @@ The following **required** functionality is completed:
 
 ## Snapshots of  the app
 
-Here's a Snapshots of implemented user stories:
-
-<img src='https://i.imgur.com/XA9q11Z.png' width=250''  height="400" />
-<img src='https://i.imgur.com/mY7mD6V.png' width=250''  height="400" />
-<img src='https://i.imgur.com/mByydXJ.png' width=250''  height="400" />
+<img src='https://i.imgur.com/XA9q11Z.png' width="250" height="400" />
+<img src='https://i.imgur.com/mY7mD6V.png' width="250"  height="400" />
+<img src='https://i.imgur.com/mByydXJ.png' width="250"  height="400" />
 
 ## Open-source libraries used
 

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="movie_db_api_key">api_key</string>
+
+    <string name="poster_image">poster_image</string>
+
+    <!-- Main menu items string title -->
+    <string name="menu_more">More</string>
+    <string name="sort_by">Sort by</string>
+
+    <!-- sort_menu_option.xml file string constants-->
+    <string name="sort_by_tv">Sort by</string>
+    <string name="popular_movie_radio">Popular Movie</string>
+    <string name="top_rated_radio">Top Rated Movie</string>
+    <string name="cancel_button">Cancel</string>
+</resources>

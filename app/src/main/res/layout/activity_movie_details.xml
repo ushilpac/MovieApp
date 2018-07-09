@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E303E">
+
+        <ImageView
+            android:id="@+id/poster_iv"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/poster_image"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/placeholder_image"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/movie_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textAllCaps="true"
+            android:layout_toEndOf="@+id/poster_iv"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"/>
+
+
+        
+        <RatingBar
+            android:id="@+id/movie_rate_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/poster_iv"
+            android:layout_below="@+id/movie_title_tv"
+            android:isIndicator="true"
+            android:numStars="1"
+            android:rating="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="2dp"/>
+
+        <TextView
+            android:id="@+id/rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:typeface="serif"
+            android:layout_below="@+id/movie_title_tv"
+            android:layout_toEndOf="@+id/movie_rate_rb"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"/>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/release_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:typeface="serif"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/synopsis_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:typeface="serif"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

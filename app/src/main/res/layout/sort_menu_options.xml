@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_by_tv"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"/>
+
+   <RadioGroup
+       android:id="@+id/movie_option_rg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp">
+
+       <RadioButton
+           android:id="@+id/popular_movie_option"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:textSize="14sp"
+           android:text="@string/popular_movie_radio"/>
+       <RadioButton
+           android:id="@+id/top_rated_movie_option"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+           android:textSize="14sp"
+           android:text="@string/top_rated_radio"/>
+
+   </RadioGroup>
+
+    <Button
+        android:id="@+id/cancel_sort_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button"
+        android:textSize="14sp"
+        android:background="#2E303E"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
